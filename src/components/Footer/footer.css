@@ -1,0 +1,95 @@
+
+
+.footer {
+    background-color: rgb(2, 1, 2);
+    color: #ffff;
+}
+.nav-footer {
+    display: flex;
+    padding: 4em 4em 3em 1.5em;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.list-item-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-image-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.discussion-container h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+.discussion-container p{
+    padding-bottom: 2em;
+} 
+.container-rapper{
+  background-color: antiquewhite;  
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  padding: 3em;
+  border-radius: 10px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 4em 4em; */
+
+}
+.address-cards{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.card-details {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+    gap: 1em;
+    background-color: whitesmoke;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10px;
+}
+.card-details:active{
+    background-color: #ffff;
+    box-shadow: 4px 4px 90px rgba(163, 171, 185, 0.30);
+}
+.card-details h1{
+    font-size: 1em;
+    font-weight: bold;
+}
+.card-icon{
+    font-size: 2em;
+        color: blueviolet;
+}
+.button-container1{
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+.form-input {
+    border-bottom: 1px solid gray;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    width: 100%
+    
+}
+.budget-input{
+    display: flex;
+    gap: 2em;
+}
+.user-information p{
+    margin-bottom: 1em;
+}
+.form-label{
+    font-weight: bold;
+}

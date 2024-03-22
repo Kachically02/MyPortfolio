@@ -1,0 +1,56 @@
+.container-wrapper {
+    background-color:rgba(247, 245, 245, 0.945);
+    /* column-gap: 2em; */
+   
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em 0;
+    align-items: center;
+}
+/* .What-i-do {
+   padding-top: 10em; 
+   padding-bottom: 6em; 
+    } */
+.title h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    
+}
+.title button {
+    padding: 1em 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    color: #ffff;
+}
+.services-container{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.what-to-do-card {
+    background-color: #ffff;
+    /* margin-left: 30em; */
+    margin-bottom: 1em;
+    padding: 2em 2em;
+    border-radius: 10px;
+}
+.what-to-do-card1 {
+    background-color: #ffff;
+    /* margin-left: 30em; */
+    margin-bottom: 1em;
+    padding: 2em 2em;
+    border-radius: 10px;
+    border-left: 4px solid rgb(114, 39, 114);
+
+}
+.what-to-do-card  h1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.what-to-do-card1 h1{
+    font-size: 1.5em;
+    font-weight: bold;  
+}

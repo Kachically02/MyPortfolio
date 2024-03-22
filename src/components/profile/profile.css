@@ -1,0 +1,112 @@
+.Profile_pics {
+    width: 50%;
+    
+    
+}
+.Profile_pics img{
+   width: 60%;
+   border-radius: 10px;
+}
+.profile-container {
+    display: flex;
+    padding:1em 2em ;
+    justify-content: space-between;
+    padding-top: 5em;
+    margin-bottom: 8em;
+    /* flex-direction: column; */
+}
+.picture-img img{
+    height: 50vh;
+    width: 60%;
+    object-fit: cover;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen  and (min-width: 1024px) {
+    .profile-container {
+        display: flex;
+        padding:1em 2em ;
+        justify-content: space-between;
+        padding-top: 5em;
+        margin-bottom: 8em;
+    }
+}
+
+.title-container h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.title-container button {
+    padding: 0.3em 0.5em;
+    margin:2em 0 ;
+    color: #ffff;
+    border-radius: 4px;
+    font-size: 2rem;
+}
+.experience-container {
+    display: flex;
+    gap: 6px;
+}
+.card {
+    background-color: ghostwhite;
+    padding: 0.5em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 4px;
+
+}
+.card h1{
+    font-weight: bold;
+}
+.Portfolio-container {
+margin:auto;
+background-color:#ffff;
+position: relative;
+border-radius: 10px;
+width: 80%;
+height: 70vh;
+
+}
+
+.picture-img {
+    width: 40%;
+    border-radius: 10px;
+    
+}
+.card-container{
+    position: relative;  
+}
+.card2 {
+    display: flex;
+    gap: 4px;
+    position: absolute;
+    padding: 1em;
+    background-color: #ffff;
+    margin:auto;
+    bottom: 0px;
+    left: 25px;
+    box-shadow: 0px 4px 90px rgba(163, 171, 185, 0.30);
+}
+.icon {
+    width: 30px;
+    color: rgb(142, 75, 204);
+
+}
+.description-container h1{
+font-size: 2em;
+font-weight: bold;
+}
+.description-container button{
+  padding: 1em 1em;
+  display: flex;
+  
+  
+}

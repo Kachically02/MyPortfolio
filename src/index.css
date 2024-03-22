@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 768px){
+   .Desktop_Navvigation {
+    display: none;
+   } 
+}
+.Background_image {
+    background-image: linear-gradient(to right,#ffff ,#ffff ,#ffff ,#ffff , rgb(219, 173, 205, 0.5));
+    width: 100%;
+    margin: auto;
+    padding-top: 8em;
+
+
+}
+
+
+
+
+.project-button {
+    display: flex;
+    justify-content:center;
+    margin-bottom:3em;
+}
+.letsdiscuss{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(5, 0, 10);
+    padding: 6em 0em;
+    flex-direction: column;
+    align-items: center;
+}
+.letsdiscuss h1{
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.letsdiscuss p{
+    color:white;
+    font-size: 0.8rem;
+    padding-top: 1em;
+    text-align: center;
+}
+.letsdiscuss button {
+    color:white;
+    background-color:blueviolet;
+    padding:1em 1em;
+    margin-top:2em;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4em; 
+    column-gap: 2em;
+}
