@@ -11,11 +11,10 @@ function Client() {
     <div>
     <div className=''>
     <div className=''>
-    <h1 className='text-3xl font-bold text-center py-10'>Happy Clients</h1>
-    <p className='text-center text-gray-500'>There are many variations of passages of Lorem Ipsum available,<br/>
-    but the majority have suffered alteration.</p>
+    <h1 className='text-3xl font-bold text-center py-10'>My Tech Stack</h1>
+    <p className='text-center text-gray-500'>Technologies I work with</p>
     </div>
-    <div className='flex items-center justify-between px-10'>
+    <div className='flex items-center justify-between px-10 p-10 grid grid-cols-2 justify-items-center  lg:grid-cols-6'>
     <img src={html} alt='' className=' w-[150px] '/>
     <img src={css} alt='' className=' w-[150px] '/>
     <img src={javascript} alt='' className=' w-[150px] '/>

@@ -1,5 +1,5 @@
 .Profile_pics {
-    width: 50%;
+    width: 70%;
     
     
 }
@@ -7,24 +7,23 @@
    width: 60%;
    border-radius: 10px;
 }
-.profile-container {
-    display: flex;
-    padding:1em 2em ;
-    justify-content: space-between;
+.wrapper {
+    /* display: flex;
+
     padding-top: 5em;
-    margin-bottom: 8em;
+    margin: 0 10rem; */
     /* flex-direction: column; */
 }
 .picture-img img{
-    height: 50vh;
-    width: 60%;
-    object-fit: cover;
+    /* height: 50vh;
+    width: 100%;
+    object-fit: cover; */
 }
-.wrapper{
+/* .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 @media only screen  and (min-width: 1024px) {
     .profile-container {

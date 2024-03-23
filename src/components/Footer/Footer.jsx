@@ -12,14 +12,13 @@ import "./footer.css";
 function Footer() {
   return (
     <div>
-      <div className="container-rapper">
-        <div className="contact-container">
+      <div className="container-rapper ">
+        <div className="contact-container p-10 grid grid-cols-1 justify-items-center  lg:grid-cols-2 gap-6">
           <div className="">
             <div className="discussion-container">
               <h1>Let’s discuss your Project</h1>
               <p>
-                There are many variations of passages of Lorem Ipsu
-                <br /> available. but the majority have suffered alte.
+                I would love to hear about what you are working on and how i could help. I am very much open for Collaboration
               </p>
             </div>
             <div className="address-cards">
@@ -29,7 +28,7 @@ function Footer() {
                 </div>
                 <div>
                   <h1>Address:</h1>
-                  <p>Awka, Anambra State</p>
+                  <p>Nigeria</p>
                 </div>
               </div>
               <div className="card-details">
@@ -49,7 +48,7 @@ function Footer() {
                 </div>
                 <div>
                   <h1>Call Me Now:</h1>
-                  <p>000-0000-0000</p>
+                  <p>+234 7037194573</p>
                 </div>
               </div>
             </div>
@@ -76,10 +75,6 @@ function Footer() {
             </div>
           </div>
           <div className="user-information">
-            <p>
-              There are many variations of passages of Lorem Ipsu available,
-              <br /> but the majority have suffered alte.
-            </p>
             <form>
               <div>
                 <label for="name" className="form-label">
@@ -167,7 +162,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer">
-        <div className="nav-footer">
+        <div className="nav-footer p-10 grid grid-cols-1 justify-items-center gap-4  lg:grid-cols-3">
           <div className="nav-image-container">
             <img src={cally} alt="" width={50} className=" rounded-full ml-2" />
             <h1 className="text-3xl font-bold">Kachi</h1>

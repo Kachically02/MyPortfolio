@@ -14,12 +14,11 @@ function Portfolio() {
       <div className="">
         <h1 className="text-3xl font-bold text-center pt-10">Projects</h1>
         <p className="text-center pt-4">
-          There are many variations of passages of Lorem Ipsum available, <br />
-          but the majority have suffered alteration.
+          Some of My works
         </p>
       </div>
       <div>
-        <div className="portfolio-container ">
+        <div className="portfolio-container p-10 grid grid-cols-1 justify-items-center  lg:grid-cols-3 gap-6 ">
           <div className="">
             <div className="">
               <img src={portfolioimg1} alt="" />
