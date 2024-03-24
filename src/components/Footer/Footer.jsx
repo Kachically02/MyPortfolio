@@ -13,7 +13,7 @@ function Footer() {
   return (
     <div>
       <div className="container-rapper ">
-        <div className="contact-container p-10 grid grid-cols-1 justify-items-center  lg:grid-cols-2 gap-6">
+        <div className="contact-container grid grid-cols-1 justify-items-center  lg:grid-cols-2 gap-6">
           <div className="">
             <div className="discussion-container">
               <h1>Let’s discuss your Project</h1>
@@ -162,7 +162,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer">
-        <div className="nav-footer p-10 grid grid-cols-1 justify-items-center gap-4  lg:grid-cols-3">
+        <div className="nav-footer grid grid-cols-1 justify-items-center gap-4  lg:grid-cols-3">
           <div className="nav-image-container">
             <img src={cally} alt="" width={50} className=" rounded-full ml-2" />
             <h1 className="text-3xl font-bold">Kachi</h1>
