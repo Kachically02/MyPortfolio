@@ -13,7 +13,7 @@ function Profile() {
       <div className="Background_image ">
         <div className="profile-container p-6 grid grid-cols-1 justify-items-center  lg:grid-cols-2 ">
           <div className="title-container ">
-            <h1>Hello, I’m Calistus Onyekachukwu</h1>
+            <h1 className="home_title">Hello, I’m Calistus Onyekachukwu</h1>
             <p>
               I'm a Frontend Software Engineer. I strives to build immersive and
               beautiful web applications through carefully structured Codes. I
@@ -46,13 +46,13 @@ function Profile() {
               integrity and productivity reflects my commitment to delivering
               quality work and fostering a positive team environment.
             </p>
-            <div className="button-container1">
+            {/* <div className="button-container1">
               <button className="bg-purple-600 text-white">My Project</button>
               <button className="flex items-center gap-2 border-purple-600 border-[2px]">
                 <img src={downloadicon} alt="" />
                 <p>Download CV</p>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

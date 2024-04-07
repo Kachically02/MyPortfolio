@@ -13,7 +13,7 @@ function Footer() {
   return (
     <div>
       <div className="container-rapper ">
-        <div className="contact-container grid grid-cols-1 justify-items-center  lg:grid-cols-2 gap-6">
+        <div className="contact-container grid-cols-1 justify-items-center ">
           <div className="">
             <div className="discussion-container">
               <h1>Let’s discuss your Project</h1>
@@ -173,8 +173,6 @@ function Footer() {
               <li className="">About</li>
               <li className="">Process</li>
               <li className="">Portfolio</li>
-              <li className="">Blog</li>
-              <li className="">Services</li>
             </ul>
           </div>
           <p>Copyright © 2023 Kachi.</p>

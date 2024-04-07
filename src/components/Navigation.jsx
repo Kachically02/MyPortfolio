@@ -28,12 +28,6 @@ function Navigation() {
             <li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
               Portfolio
             </li>
-            <li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
-              Blog
-            </li>
-            <li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
-              Services
-            </li>
           </ul>
           <button className="text-white font-bold bg-purple-600 py-2 px-6 rounded-lg">
             Contact
@@ -62,12 +56,7 @@ function Navigation() {
           <li className="text-lg font-bold bg-purple-200 m-4 p-4 rounded hover:bg-gray-300 cursor-pointer">
             Portfolio
           </li>
-          <li className="text-lg font-bold bg-purple-200 m-4 p-4 rounded hover:bg-gray-300 cursor-pointer">
-            Blog
-          </li>
-          <li className="text-lg font-bold bg-purple-200 m-4 p-4 rounded hover:bg-gray-300 cursor-pointer">
-            Services
-          </li>
+          
         </ul>
         <button className="text-white font-bold bg-purple-600 py-2 px-6 ml-8 mx-4 rounded-lg hover:bg-purple-900">
           Contact
