@@ -7,7 +7,7 @@ import downloadicon from "../../assets/downloadicon.svg";
 import { Link } from "react-dom";
 import "./profile.css";
 
-function Profile() {
+function About() {
   return (
     <div>
       <div className="Background_image ">
@@ -60,4 +60,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default About;

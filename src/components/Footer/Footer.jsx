@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FiPhoneCall } from "react-icons/fi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaFacebook } from "react-icons/fa";
-import { FaDribbble, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import { AiOutlineSend } from "react-icons/ai";
 import "./footer.css";
 
@@ -57,7 +57,6 @@ function Footer() {
                 {" "}
                 <FaFacebook className="card-icon" />
               </a>
-              <FaDribbble className="card-icon" />
               <a href="https://twitter.com/UgwuokeCalistu1?t=-qJaa4HP3xA2Qd0fI0FL_A&s=08">
                 {" "}
                 <FaXTwitter className="card-icon" />
@@ -77,7 +76,7 @@ function Footer() {
           <div className="user-information">
             <form>
               <div>
-                <label for="name" className="form-label">
+                <label className="form-label">
                   Name*
                 </label>
                 <br />
@@ -90,7 +89,7 @@ function Footer() {
               </div>
 
               <div>
-                <label for="email" className="form-label">
+                <label className="form-label">
                   Email*
                 </label>
                 <br />
@@ -129,7 +128,7 @@ function Footer() {
                   />
                 </div>
                 <div>
-                  <label for="name" className="form-label">
+                  <label className="form-label">
                     Subject*
                   </label>
                   <br />
@@ -143,7 +142,7 @@ function Footer() {
               </div>
 
               <div>
-                <label for="message" className="form-label">
+                <label className="form-label">
                   Message
                 </label>
                 <br />

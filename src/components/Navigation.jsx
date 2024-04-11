@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import cally from "../assets/cally.jpg";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { Routes, Route, Link} from "react-router-dom";
 
 function Navigation() {
     const [open, setOpen] = useState(false);
@@ -16,22 +17,19 @@ function Navigation() {
         </div>
         <div className="Desktop_Navvigation flex items-center justify-between gap-8">
           <ul className="flex items-center gap-10">
-            <li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
+            <Link to="/"><li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
               Home
-            </li>
-            <li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
+            </li></Link>
+            <Link to="/about"><li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
               About
-            </li>
-            <li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
-              Process
-            </li>
-            <li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
-              Portfolio
-            </li>
+            </li></Link>
+            <Link to="/project"><li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
+              Project
+            </li></Link>
           </ul>
-          <button className="text-white font-bold bg-purple-600 py-2 px-6 rounded-lg">
+          <Link to="/contact"><button className="text-white font-bold bg-purple-600 py-2 px-6 rounded-lg">
             Contact
-          </button>
+          </button></Link>
         </div>
       </div>
 
