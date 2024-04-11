@@ -42,19 +42,20 @@ function Navigation() {
       {open &&(
         <div className="md:hidden bg-purple-400 py-8">
         <ul className="grid:flex-col gap-10 ">
-        <Link to="/"><li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
-        Home
-      </li></Link>
-      <Link to="/about"><li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
-        About
-      </li></Link>
-      <Link to="/project"><li className="text-lg font-bold hover:bg-gray-300 cursor-pointer">
-        Project
-      </li></Link>
-    </ul>
-    <Link to="/contact"><button className="text-white font-bold bg-purple-600 py-2 px-6 rounded-lg">
-      Contact
-    </button></Link>
+          <Link to="/"><li className="text-lg font-bold bg-purple-200 m-4 p-4 rounded hover:bg-gray-300 cursor-pointer">
+            Home
+          </li></Link>
+          <Link to="/about"><li className="text-lg font-bold bg-purple-200 m-4 p-4 rounded hover:bg-gray-300 cursor-pointer">
+            About
+          </li></Link>
+          <Link to="/project"><li className="text-lg font-bold bg-purple-200 m-4 p-4 rounded hover:bg-gray-300 cursor-pointer">
+            Project
+          </li></Link>
+          
+        </ul>
+        <Link to="/contact"><button className="text-white font-bold bg-purple-600 py-2 px-6 ml-8 mx-4 rounded-lg hover:bg-purple-900">
+          Contact
+        </button></Link>
       </div>
 
       )}
